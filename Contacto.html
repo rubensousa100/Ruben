@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos - Seu Nome</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Cabeçalho e Navegação -->
+    <header>
+        <h1>Contactos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="PercursoEscolar.html">Percurso Escolar</a></li>
+                <li><a href="Curriculo.html">Curriculum Vitae</a></li>
+                <li><a href="Contacto.html">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <section>
+            <h2>Entre em Contato</h2>
+            <p>Preencha o formulário abaixo para entrar em contato, ou utilize os dados de contato fornecidos.</p>
+        </section>
+
+        <!-- Formulário de Contato -->
+        <section>
+            <form action="mailto:seuemail@example.com" method="post" enctype="text/plain">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <!-- Informações de Contato -->
+        <section>
+            <h2>Outros Meios de Contato</h2>
+            <p>Email: ruben.sousa.raul@hotmail.com</p>
+            <p>Telefone: 911738499</p>
+            <ul>
+                <li><a href="https://linkedin.com/in/seu-perfil" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/seu-usuario" target="_blank">GitHub</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
